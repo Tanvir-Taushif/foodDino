@@ -1,5 +1,8 @@
 #TopName{
     margin-left: 40%;
+    color: crimson;
+    font-weight: 600;
+    font-size: 60px;
 }
 .mainDiv{
     display: flex;
@@ -20,6 +23,13 @@
 }
 
 .food-name{
+    padding: 20px;
+}
+
+.calculation{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
     padding: 20px;
 }
 
