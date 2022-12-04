@@ -1,0 +1,42 @@
+#TopName{
+    margin-left: 40%;
+}
+.mainDiv{
+    display: flex;
+    padding: 10px;
+}
+
+.screen{
+    width: 50%;
+}
+
+.food{
+    margin: 20px;
+    height: 200px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.food-name{
+    padding: 20px;
+}
+
+#priceCalc{
+    font-size: 50px;
+}
+
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background-color: brown;
+}

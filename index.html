@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Table</title>
+</head>
+<body>
+    <h1 id="TopName">FoodDino</h1>
+    <div class="mainDiv">
+        <div class="screen">
+            <h1>Order Food Items</h1>
+            <div class="food">
+                <div id="burger" class="food-name">
+                    <h3>Burger</h3>
+                    <img class="foodImage" height="60px" width="60px" src="images/burger.jpg" alt="">
+                    <h5>Price 50$</h5>
+                </div>
+            </div>
+            <div class="food">
+                <div id="fries" class="food-name">
+                    <h3>French Fries</h3>
+                    <img class="foodImage" height="60px" width="60px" src="images/fries.jpg" alt="">
+                    <h5>Price 30$</h5>
+                </div>
+            </div>
+            <div class="food">
+                <div id="smoothie" class="food-name">
+                    <h3>Smoothie</h3>
+                    <img class="foodImage" height="60px" width="60px" src="images/smoothie.jpg" alt="">
+                    <h5>Price 20$</h5>
+                </div>
+            </div>
+        </div>
+        <div class="screen">
+            <div class="calculation">
+                <h1>Total Price</h1>
+                <h3 id="priceCalc">
+                    00
+                </h3>
+                <button onclick="count()"  class="btn"> Refresh</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
